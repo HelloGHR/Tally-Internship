@@ -8,6 +8,8 @@ div.st-emotion-cache-ocqkz7 {
     gap: 1rem;
     position: fixed;
     background: white;
+    height:60px;
+    padding-bottom: 30px;
     width: 100%; /* Default width to be full width of the viewport */
     max-width: 700px; /* Limit the width to 700px on larger screens */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
