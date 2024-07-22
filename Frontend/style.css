@@ -1,0 +1,22 @@
+div.st-emotion-cache-ocqkz7 {
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: stretch;
+    gap: 1rem;
+    position: fixed;
+    background: white;
+    width: 100%; /* Default width to be full width of the viewport */
+    max-width: 700px; /* Limit the width to 700px on larger screens */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    div.st-emotion-cache-ocqkz7 {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    }
+}
